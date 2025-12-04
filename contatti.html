@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 5D - Contacts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">PORTFOLIO GIULIA GUERRA 5D</a></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="scuola_e_lavoro.html">SCUOLA E LAVORO</a></li>
+            <li><a href="progetti.html">PROGETTI</a></li>
+            <li><a href="contatti.html" class="active">CONTATTI</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Contact Me</h2>
+        
+        <div class="contact-container">
+            <div class="contact-info-box">
+                <h3>My Details</h3>
+                <p class="contact-description">For collaborations, information about my projects, or just to say hello, feel free to write to me.</p>
+                
+                <div class="contact-details">
+                    <p><strong>Email:</strong> <br> <a href="mailto:giulia.guerra@istituto.edu.it" class="contact-email-link">giulia.guerra@istituto.edu.it</a></p>
+                    <p><strong>School:</strong> <br> Technical Technological Institute</p>
+                    <p><strong>Class:</strong> <br> 5D Computer Science</p>
+                </div>
+            </div>
+
+            <div class="section-content">
+                <h3>Send a Message</h3>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="nome">Name:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="oggetto">Subject:</label>
+                        <select id="oggetto" name="oggetto">
+                            <option value="info">Information Request</option>
+                            <option value="collaborazione">Collaboration Proposal</option>
+                            <option value="altro">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="messaggio">Message:</label>
+                        <textarea id="messaggio" name="messaggio" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">SEND</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Giulia Guerra - Computer Science Student 5D</p>
+            <p>School Year 2024/2025</p>
+            <div class="footer-links">
+                <a href="mailto:giulia.guerra@email.com">Gmail</a> | 
+                <a href="https://www.instagram.com" target="_blank">Instagram</a> | 
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
